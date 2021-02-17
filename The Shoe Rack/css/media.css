@@ -1,0 +1,172 @@
+/* laptops */
+@media only screen and (max-width: 1200px) {
+  .hero {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 6%;
+  }
+  .hero h1 {
+    font-size: 200%;
+  }
+
+  .logo {
+    margin-right: 23%;
+    margin-left: 30px;
+  }
+  .main-nav {
+    float: none;
+  }
+  h2:after {
+    margin-left: 420px;
+  }
+  .features .box {
+    width: 20%;
+    margin-left: 15px;
+    font-size: 100%;
+  }
+
+  .cities .box {
+    width: 20%;
+    padding: 0 15px;
+  }
+  .cities h2:after {
+    margin-left: 47%;
+  }
+  .contact form {
+    width: 100vh;
+    margin-left: 15%;
+  }
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 40%;
+  }
+
+  footer .span-1-of-2 {
+    width: 46%;
+    padding: 0;
+  }
+
+  footer .social-accounts {
+    margin-left: 15px;
+  }
+
+  footer p {
+    margin-right: -12%;
+  }
+}
+/* for larger screens */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 15px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .hero h1 {
+    font-size: 200%;
+  }
+
+  .logo {
+    margin-right: 100px;
+  }
+  .main-nav {
+    float: none;
+  }
+  h2 {
+    width: 130vh;
+  }
+  h2:after {
+    margin-left: 320px;
+  }
+  .first-paragraph {
+    width: 50%;
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  .features .box {
+    width: 26vh;
+    margin-left: 15px;
+    font-size: 90%;
+  }
+
+  .cities .box {
+    width: 15%;
+    padding: 0 15px;
+  }
+  .cities .row h2,
+  .testemonials .row h2,
+  .contact .row h2 {
+    width: 110vh;
+  }
+  .cities .row h2:after,
+  .testemonials .row h2:after,
+  .contact .row h2:after {
+    margin-left: 290px;
+  }
+
+  .testemonials .span-1-of-3 {
+    width: 35vh;
+    margin-left: 5%;
+    font-size: large;
+  }
+  .contact form {
+    width: 100vh;
+    margin-left: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 40%;
+  }
+
+  footer .span-1-of-2 {
+    width: 55vh;
+    padding: 0;
+  }
+  footer ul {
+    margin-left: -10px;
+  }
+  footer ul li {
+    margin-left: -10px;
+  }
+  footer .social-accounts {
+    margin-left: 15px;
+  }
+  footer p {
+    margin-left: -40%;
+  }
+  
+}
+
+/* middle phones */
+@media only screen and (max-width: 767px) {
+  body{
+    font-size: 14px;
+  }
+  section{
+    padding: 30px 0;
+  }
+  .main-nav{
+    display: none;
+  }
+
+  .hero,
+  .row {
+    width: 100%;
+    padding: 0 4%;
+  }
+
+  .col{width: 100;}
+
+}
+
+/* Small phones */
+
+@media only screen and (max-width: 480px) {
+}
